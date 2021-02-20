@@ -24,7 +24,7 @@
 # Server: nginx/1.10.3 (Ubuntu)
 # X-Ms-Request-Id: babfc511-a0f0-4ecb-a243-b3010a76b8b9
 # X-Ms-Run-Function-Failed: False
-#
+# 
 # "{\"result\": [\"yes\", \"no\"]}"
 # LOG: Response code = 200
 # LOG: header received:
