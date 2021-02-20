@@ -1,11 +1,11 @@
-#Operationalizing A Machine Learning Model
+# Operationalizing A Machine Learning Model
 
-##Overview
+## Overview
 In this project, we take a bank marketing data set and train a model to predict the likelihood of a customer to subscribe to a product. After this we deploy this model which exposes an http endpoint for authenticated users to consume and we create documentation using swagger. Finally we create and deploy a pipeline.
 
 The data set contains 20 columns and 32,950 rows from results of a previous campaign. It contains details of customers such as age, education, marital status and so on.
 
-##Architecture
+## Architecture
 
 [!Architecture]()
 
