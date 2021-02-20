@@ -54,7 +54,7 @@ I struggled a bit here as I was getting an http response 502. I had to drill dow
 
 ### Create Swagger Documentation
 
-Using swagger.sh I was able to set up swagger documentation for the endpoint to our deployed model. 
+Using swagger.sh and the swagger.json file from the deployed model I was able to set up swagger documentation for the endpoint to our deployed model. 
 
 ![swagger on localhost](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/swagger_localhost.PNG)
 
@@ -74,7 +74,14 @@ Once completed, the pipeline was published. Image shows pipeline endpoint and ac
 
 ![published pipeline](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/published_pipeline_overview.PNG)
 
-## 
+## Screencast
+
+View my video recording on Youtube [here](https://youtu.be/Azw8JpAlM-g)
+
+## Future Improvements
+The experiment could be allowed to run for longer than 1 hour although this comes at additional costs. Longer runs may yield better results.
+Future campaigns can try to balance out under-represented populations in the data such as unmarried people
+
 
 
 
