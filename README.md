@@ -36,7 +36,11 @@ The best model was a voting ensemble with accuracy of 0.91775.
 
 The best model was deployed and application insights enabled. This was very useful for me later on in the project when I had to consume the endpoint and kept getting an http 502 response. I described this error a bit in the screen cast.
 
-![Application insights](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/app_insights_enabled.PNG)
+![Application insights enabled](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/app_insights_enabled.PNG)
+
+Metrics are available via application insights as shown below and they're very helpful for monitoring and troubleshooting
+
+![Application insights graphs](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/app_insights_graphs.PNG)
 
 ### Enable logging
 
@@ -50,7 +54,7 @@ A sample request was built using the endpoint.py file. I updated the scoring URI
 
 ![endpoint response](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/endpoint_json_output.PNG)
 
-I struggled a bit here as I was getting an http response 502. I had to drill down using application insights to find out I had been sending input data with only 13 values as against the expected 20. I was using the endpoints.py data in the exercise starter files which wasn't the same as the endpoints.py data in starter files folder. I made this correction and got the expected json response.
+I struggled a bit here as I was getting an http response 502. I had to drill down using application insights (in the right corner of the image above) to find out I had been sending input data with only 13 values as against the expected 20. I was using the endpoints.py data in the exercise starter files which wasn't the same as the endpoints.py data in starter files folder. I made this correction and got the expected json response.
 
 ### Create Swagger Documentation
 
