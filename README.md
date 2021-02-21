@@ -1,7 +1,7 @@
 # Operationalizing A Machine Learning Model
 
 ## Overview
-In this project, we take a bank marketing data set and train a model to predict the likelihood of a customer to subscribe to a product. After this we deploy this model which exposes an http endpoint for authenticated users to consume and we create documentation using swagger. Finally we create and deploy a pipeline.
+In this project, we take a [bank marketing data set](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) and train a model to predict the likelihood of a customer to subscribe to a product. After this we deploy this model which exposes an http endpoint for authenticated users to consume and we create documentation using swagger. Finally we create and deploy a pipeline.
 
 The data set contains 20 columns and 32,950 rows from results of a previous campaign. It contains details of customers such as age, education, marital status and so on.
 
@@ -78,13 +78,15 @@ Once completed, the pipeline was published. Image shows pipeline endpoint and ac
 
 ![published pipeline](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/published_pipeline_overview.PNG)
 
+![pipeline endpoint](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/pipeline_endpoint.PNG)
+
 ## Screencast
 
-View my video recording on Youtube [here](https://youtu.be/Azw8JpAlM-g)
+View my video recording on Youtube [here](https://youtu.be/Azw8JpAlM-g). Here I briefly run through what I have done in the project.
 
-## Future Improvements
-The experiment could be allowed to run for longer than 1 hour although this comes at additional costs. Longer runs may yield better results.
-Future campaigns can try to balance out under-represented populations in the data such as unmarried people
+## Standout Suggestions
+<li>The experiment could be allowed to run for longer than 1 hour although this comes at additional costs. Longer runs may yield better results.</li>
+<li>Future campaigns can try to balance out under-represented populations in the data such as unmarried people</li>
 
 
 
