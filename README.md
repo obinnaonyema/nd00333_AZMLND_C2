@@ -26,7 +26,7 @@ The bank marketing data set was uploaded for use in training the model via AutoM
 
 ![Registered data sets](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/registered_datasets.PNG)
 
-An AutoML experiment was created to run on compute cluster with Standard_DS12_V2 machines. Setting minimum number of nodes to 1 eliminates start up time of the machine when the experiment is created although it came at a cost as I was using a private Azure subscription.
+An AutoML classification experiment was created to run on compute cluster with Standard_DS12_V2 machines. Setting minimum number of nodes to 1 eliminates start up time of the machine when the experiment is created although it came at a cost as I was using a private Azure subscription.
 
 ![Model training completed](https://github.com/obinnaonyema/nd00333_AZMLND_C2_Operationalize_Model_in_Azure/blob/master/starter_files/Images/model_training_completed.PNG)
 
